@@ -1,3 +1,10 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+highlighter:         true
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -5,11 +12,10 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+title:            Reuben Ndindi
+tagline:          'Big Data, Databases, Data Quality, Blogging, Tweets, Software Engineering'
+url:              http://www.ndindireuben.com
+shorturl:         ndindireuben.com
 
 # Assets
 #
@@ -20,11 +26,19 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Reuben Ndindi
+  url:               https://twitter.com/rndindi
+
+paginate:            1
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              github.com/rndindi/rndindi.github.io
+
+pages_list:
+  About: '/about'
+  CV: '/cv'
+  Research: '/research'
+  Archive: '/archive'
+  #Feed: '/atom.xml'
